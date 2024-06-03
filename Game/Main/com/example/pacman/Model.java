@@ -498,7 +498,7 @@ public class Model extends JPanel implements ActionListener {
         g2d.dispose();
     }
 
-    class TAdapter extends KeyAdapter {
+    public class TAdapter extends KeyAdapter {
 
         @Override
         public void keyPressed(KeyEvent e) {
